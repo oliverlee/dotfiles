@@ -1,4 +1,5 @@
 {
+    "alacritty.yml": "~/.alacritty.yml",
     "config/starship.toml": "~/.config/starship.toml",
     "spacemacs": "~/.spacemacs"
 }
