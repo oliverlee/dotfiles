@@ -45,7 +45,7 @@ syntax on                                                   " enable syntax high
 set background=dark
 set t_Co=256                                                " 256 colors in terminal
 filetype indent plugin on                                   " use filetype specific indent rules
-let &colorcolumn="80,".join(range(120,999),",")             " highlight column 80 and 120 and onward
+let &colorcolumn="80,120"                                   " highlight column 80 and 120
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
 highlight clear SpellBad                                    " underline misspelled words
