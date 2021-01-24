@@ -1,49 +1,48 @@
-# Don't print a new line at the start of the prompt
-add_newline = false
+add_newline = true
 
 [conda]
-symbol = " "
+symbol = ' '
+ignore_base = true
 
 [character]
-success_symbol = "[❯](bold green) "
-error_symbol = "[✗](bold red) "
+success_symbol = '[❯](bold green) '
+error_symbol = '[✗](bold red) '
 
 [cmd_duration]
-min_time = 500 # milliseconds
+min_time = 500
 
 [directory]
-#truncation_symbol = "…/"
-read_only = " "
+read_only = ' '
 
 [docker]
-symbol = " "
+symbol = ' '
 
 [git_branch]
-symbol = " "
+symbol = ' '
 
 [hostname]
 ssh_only = true
-style = "bold fg:69"
+style = 'bold fg:69'
 
 [memory_usage]
 threshold = 75
-symbol = " "
+symbol = ' '
 disabled = false
 
 [package]
-symbol = " "
+symbol = ' '
 
 [python]
-symbol = " "
+symbol = ' '
 
 [rust]
-symbol = " "
+symbol = ' '
 
 [status]
-format = "[$status]($style) "
+format = '[$status]($style) '
 disabled = false
 
 [username]
 show_always = false
-format = "[$user]($style)@"
-style_user = "bold fg:75"
+format = '[$user]($style)@'
+style_user = 'bold fg:75'
