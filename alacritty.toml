@@ -1,0 +1,53 @@
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.bright]
+black = "0x686868"
+blue = "0x57c7ff"
+cyan = "0x9aedfe"
+green = "0x5af78e"
+magenta = "0xff6ac1"
+red = "0xff5c57"
+white = "0xf1f1f0"
+yellow = "0xf3f99d"
+
+[colors.normal]
+black = "0x282a36"
+blue = "0x57c7ff"
+cyan = "0x9aedfe"
+green = "0x5af78e"
+magenta = "0xff6ac1"
+red = "0xff5c57"
+white = "0xf1f1f0"
+yellow = "0xf3f99d"
+
+[colors.primary]
+background = "0x282a36"
+foreground = "0xeff0eb"
+
+[cursor.style]
+blinking = "On"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 8.0
+
+[scrolling]
+history = 10000
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ''',│`|:"' ()[]{}<>	'''
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["--login", "-c", "tmux"]
+
+[window]
+decorations = "none"
+opacity = 0.8
+
+[general]
+live_config_reload = true
