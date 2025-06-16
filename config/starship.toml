@@ -14,9 +14,6 @@ min_time = 500
 [directory]
 read_only = ' '
 
-[docker]
-symbol = ' '
-
 [git_branch]
 symbol = ' '
 
